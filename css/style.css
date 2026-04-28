@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #020617;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: cyan;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Cards */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #334155;
+}
+
+/* Blog */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.blog-card {
+  padding: 30px;
+  background: #1e293b;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  background: cyan;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Contact */
+.contact-form {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: cyan;
+  border: none;
+}
+
+/* Center */
+.center {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.image-section img {
+  width: 30%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.image-section img:hover {
+  transform: scale(1.05);
+}
+/* Blog Image Styling (applies to ALL posts) */
+.blog-image {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  object-fit: cover;   /* keeps image nicely cropped */
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+/* Blog Content Layout */
+.blog-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.blog-container h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.blog-container h2 {
+  margin-top: 30px;
+  color: #38bdf8;
+}
+
+.blog-container p {
+  margin: 15px 0;
+  color: #cbd5f5;
+}
+
+.blog-container ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.blog-container li {
+  margin: 8px 0;
+}
+
+.blog-nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-nav a {
+  color: cyan;
+  text-decoration: none;
+}
+
+
+
+
+/* Home Sections */
+.home-section {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.home-section h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+.home-section p {
+  color: #cbd5f5;
+}
+
+/* Benefits */
+.benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin: 10px 0;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+/* Hero Image */
+.hero-image {
+  text-align: center;
+  margin-top: -30px;
+}
