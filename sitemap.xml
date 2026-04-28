@@ -1,11 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://yourusername.github.io/seo-blog-site/</loc>
-</url>
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/</loc>
+  </url>
 
-<url>
-<loc>https://yourusername.github.io/seo-blog-site/blog.html</loc>
-</url>
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/post1.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/post2.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/post3.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/post4.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jbahuroopvilas.github.io/seo-blog-site/post5.html</loc>
+  </url>
 
 </urlset>
